@@ -170,7 +170,7 @@ myChart.setOption({
     type: 'scatter',
     coordinateSystem: 'bmap',
     data: [ [120, 30, 1] ]
-  }]，
+  }],
 });
 
 var bmap = myChart.getModel().getComponent('bmap').getBMap();
